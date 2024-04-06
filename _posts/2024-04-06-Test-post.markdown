@@ -12,4 +12,4 @@ github:
 mathjax: yes
 ---
 
-lorem ipsums
+lorem ipsumsf
