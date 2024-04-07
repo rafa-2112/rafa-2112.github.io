@@ -57,10 +57,10 @@ extensions:
 comments: utteranc  #[disqus, utteranc]
 comments_opts:
   comments_curtain: yes # leave empty to show the disqus embed directly
-  repo: # The GitHub repo URL.  https://utteranc.es/
-  issue_term: # The GitHub issue label
-  label: # The GitHub comments label
-  theme: # The GitHub comment's there. e.g. github-dark
+  repo: rafa-2112/rafa-2112.github.io # The GitHub repo URL.  https://utteranc.es/
+  issue_term: aldf# The GitHub issue label
+  label: site # The GitHub comments label
+  theme: github-dark# The GitHub comment's there. e.g. github-dark
   # Disqus
   discus_identifier: # Add your discus identifier
 

@@ -8,7 +8,7 @@ description: Test posts are a great way to learn how to manage this site.
 img: /posts/20210125/Perceptron.jpg
 tags: [test, C, C++, embedded]
 author: Rafael Reyes
-github: rafa-2112/
+github: rafa-2112/Attiny85-Capacitive-Touch-Library/
 mathjax: yes
 ---
 
