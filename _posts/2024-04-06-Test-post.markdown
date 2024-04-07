@@ -3,7 +3,7 @@ layout: post
 read_time: true
 show_date: true
 title:  Capacitive Touch with ATtiny85
-date:   2024-04-07 05:49:00 -0500
+date:   2024-04-07 05:50:00 -0500
 description: Library that allows pins connected to the ADC to become capacitive touch sensors
 img: posts/hands-1851218_1280.jpg
 tags: [capacitive touch, C, C++, attiny85, avr]
