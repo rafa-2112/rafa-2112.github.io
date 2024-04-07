@@ -25,15 +25,15 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 
 # Author settings
 author: Rafael Reyes # add your name
-author-pic: Myself_Neon_grey.jpg
-about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
+author-pic: Rafael-headshot.jpg
+about-author: Electrical Engineer with interest in embedded design, PCB design, and robotics. Dedicated to learning through experience and collaboration.
 
 # Contact links
-email: # Add your Email address
+email: rafael.reyes.0018@gmail.com
 phone: # Add your Phone number
 website: https://rafa-2112.github.io # Add your website
-linkedin: # Add your Linkedin handle
-github: # Add your Github handle
+linkedin: rafael-e-reyes
+github: rafa-2112
 twitter: # Add your Twitter handle
 bandcamp: # Add your Bandcamp username
 stackoverflow: # Add your stackoverflow account
@@ -42,8 +42,8 @@ stackoverflow: # Add your stackoverflow account
 mailchimp: #"https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Tracker
-analytics: G-R8SZS2YBZK
-fbadmin: ar.maybach
+analytics: #G-R8SZS2YBZK
+fbadmin: #ar.maybach
 
 # Paginate
 paginate: 6

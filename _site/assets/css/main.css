@@ -1730,10 +1730,11 @@ img + small, img + br + small {
   margin: 0 0 10px;
 }
 .contact-icons {
-    display: inline-block;
+    display: flex;
     margin-block-start: 0;
     padding-inline-start: 0;
     text-align: center;
+    justify-content: space-around;
 }
 .contact-icons ul {
   list-style: none;

@@ -3,12 +3,12 @@ layout: post
 read_time: true
 show_date: true
 title:  Test Post
-date:   2024-04-06 04:50:20 +0600
+date:   2024-04-06 04:50:20 -0600
 description: Test posts are a great way to learn how to manage this site.
 img: /posts/20210125/Perceptron.jpg
 tags: [test, C, C++, embedded]
 author: Rafael Reyes
-github:  
+github: rafa-2112/
 mathjax: yes
 ---
 
