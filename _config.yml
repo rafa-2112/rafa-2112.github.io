@@ -16,6 +16,7 @@ logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG f
 # Whatever the user's choice is, it will supersede the
 # default setting of the site and be kept during the
 # visit (session). Only the dark mode setting is "manual",
+
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 night_mode: "auto"
