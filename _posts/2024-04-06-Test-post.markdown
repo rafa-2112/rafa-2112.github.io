@@ -2,14 +2,13 @@
 layout: post
 read_time: true
 show_date: true
-title:  Test Post
-date:   2024-04-06 04:50:20 -0600
-description: Test posts are a great way to learn how to manage this site.
-img: /posts/20210125/Perceptron.jpg
-tags: [test, C, C++, embedded]
+title:  Capacitive Touch with ATtiny85
+date:   2024-04-07 05:49:00 -0500
+description: Library that allows pins connected to the ADC to become capacitive touch sensors
+img: posts/hands-1851218_1280.jpg
+tags: [capacitive touch, C, C++, attiny85, avr]
 author: Rafael Reyes
 github: rafa-2112/Attiny85-Capacitive-Touch-Library/
 mathjax: yes
 ---
 
-lorem ipsumssdf
