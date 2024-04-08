@@ -3,36 +3,6 @@
 [   
       
   {
-  "tag" : "C",
-  "posts" : [
-      
-      "./Capacitive-Touch.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "C++",
-  "posts" : [
-      
-      "./Capacitive-Touch.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "attiny85",
-  "posts" : [
-      
-      "./Capacitive-Touch.html"
-      
-    ]
-  } ,
-    
-      
-  {
   "tag" : "audio",
   "posts" : [
       
@@ -43,20 +13,10 @@
     
       
   {
-  "tag" : "avr",
+  "tag" : "coding",
   "posts" : [
       
-      "./Capacitive-Touch.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "capacitive touch",
-  "posts" : [
-      
-      "./Capacitive-Touch.html"
+      "./single-neuron-perceptron.html"
       
     ]
   } ,
@@ -67,6 +27,26 @@
   "posts" : [
       
       "./Audio-Distortion-Circuit.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "machine learning",
+  "posts" : [
+      
+      "./single-neuron-perceptron.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "neural networks",
+  "posts" : [
+      
+      "./single-neuron-perceptron.html"
       
     ]
   } ,
