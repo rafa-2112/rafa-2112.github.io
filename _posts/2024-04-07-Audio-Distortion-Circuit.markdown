@@ -15,7 +15,7 @@ mathjax: yes
 Audio effects are prevalent in music and range in purpose. While some are subtle and designed to clean-up signals, others add their own variations. One such effect is distortion.
 
 ## What is distortion?
-Distortion is an alteration that produces a "gritty" tone. It is typically achieved by increasing the gain of the audio signal until the peaks surpass the point of saturation. The video below demonstrates the how distortion affects a clean audio signal.
+Distortion is an alteration that produces a "gritty" tone. It is typically achieved by increasing the gain of the audio signal until the peaks surpass the point of saturation or by diode clipping. The video below demonstrates the how distortion affects a clean audio signal.
 
 <center><iframe width="75%" height="315" src="https://www.youtube.com/embed/7dLArMd-y64?si=eqY3fxMvaLuB1e9L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
