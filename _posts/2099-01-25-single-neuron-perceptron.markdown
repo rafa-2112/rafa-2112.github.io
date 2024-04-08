@@ -3,7 +3,7 @@ layout: post
 read_time: true
 show_date: true
 title:  Single Neuron Perceptron
-date:   209-01-25 13:32:20 -0600
+date:   2099-01-25 13:32:20 -0600
 description: Single neuron perceptron that classifies elements learning quite quickly.
 img: /posts/20210210/Game_of_Life.jpg
 tags: [machine learning, coding, neural networks]
