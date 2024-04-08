@@ -8,7 +8,7 @@ description: Design of a distortion pedal
 img: posts/20240407/guitar-pedal1595862_1280.jpg
 tags: [audio, pcb, kicad, opamp]
 author: Rafael Reyes
-github: rafa-2112/BH-distortion-dedal/
+github: rafa-2112/BH-distortion-pedal/
 mathjax: yes
 ---
 
