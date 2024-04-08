@@ -13,40 +13,10 @@
     
       
   {
-  "tag" : "coding",
-  "posts" : [
-      
-      "./single-neuron-perceptron.html"
-      
-    ]
-  } ,
-    
-      
-  {
   "tag" : "kicad",
   "posts" : [
       
       "./Audio-Distortion-Circuit.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "machine learning",
-  "posts" : [
-      
-      "./single-neuron-perceptron.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "neural networks",
-  "posts" : [
-      
-      "./single-neuron-perceptron.html"
       
     ]
   } ,

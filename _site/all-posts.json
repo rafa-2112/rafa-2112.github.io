@@ -1,9 +1,7 @@
 {
   "posts" : [
     
-    "./Audio-Distortion-Circuit.html",
-    
-    "./single-neuron-perceptron.html"
+    "./Audio-Distortion-Circuit.html"
     
   ]
 }
