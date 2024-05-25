@@ -1,13 +1,13 @@
 [
   
     {
-      "title"       : "Audio Distortion Circuit",
+      "title"       : "Ohm Meter",
       "category"    : "",
-      "tags"        : "audio, pcb, kicad, opamp",
-      "url"         : "./Audio-Distortion-Circuit.html",
-      "date"        : "2024-04-07 05:50:00 -0500",
-      "description" : "Design of a distortion pedal",
-      "content"     : "Audio effects are prevalent in music and range in purpose. While some are subtle and designed to clean-up signals, others add their own variations. One such effect is distortion.What is distortion?Distortion is an alteration that produces a “gritty” tone. It is typically achieved by increasing the gain of the audio signal until the peaks surpass the point of saturation or by diode clipping. The video below demonstrates the how distortion affects a clean audio signal.UPDATES COMING SOON"
+      "tags"        : "measurement, standard, ohms, resistors",
+      "url"         : "./Ohm-Meter.html",
+      "date"        : "2024-04-09 05:50:00 -0500",
+      "description" : "Design process of a digital ohm meter",
+      "content"     : "Overviewto overviewSorting resistors is a tedious task. Reading the color bands becomes harder when the color of the resistor has low constrast with the color bands. A solution for sorting resistors is to use a multimeter with an intgrated ohm meter. The following design process is for an ohm meter that displays the value, nearest standard value, and percent error of the resistor.MeasurmentStandard ValuesThe following formula, sourced from Jeremy Webb’s website, is used to calculate the\\(\\begin{align}R = d \\ast 10^{\\frac{i}{N}},\\end{align}\\)\\(\\begin{align}\\begin{array}{r | l} \\text{} &amp; d = \\text{decade multiplier: 10, 100, 1k,} \\dots \\\\ \\text{where} &amp; N = \\text{tolerance series: 12, 24, 48, 96} \\\\\\text{} &amp; i = 0 \\dots N-1 \\\\\\end{array}\\end{align}\\)ErrorImplementationarduinostm32UPDATES COMING SOON"
     } 
   
 ]
