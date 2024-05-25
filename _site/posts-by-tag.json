@@ -3,40 +3,40 @@
 [   
       
   {
-  "tag" : "audio",
+  "tag" : "measurement",
   "posts" : [
       
-      "./Audio-Distortion-Circuit.html"
+      "./Ohm-Meter.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "kicad",
+  "tag" : "ohms",
   "posts" : [
       
-      "./Audio-Distortion-Circuit.html"
+      "./Ohm-Meter.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "opamp",
+  "tag" : "resistors",
   "posts" : [
       
-      "./Audio-Distortion-Circuit.html"
+      "./Ohm-Meter.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "pcb",
+  "tag" : "standard",
   "posts" : [
       
-      "./Audio-Distortion-Circuit.html"
+      "./Ohm-Meter.html"
       
     ]
   } 

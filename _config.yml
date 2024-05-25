@@ -1,6 +1,6 @@
 # Site settings
 title: Rafael Reyes Portfolio
-description: 'Artificial Intelligence trends and concepts made easy.' # this means to ignore newlines until "baseurl:"
+description: "Rafael's Portfolio" # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://rafa-2112.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -27,7 +27,7 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 # Author settings
 author: Rafael Reyes # add your name
 author-pic: Rafael-headshot.jpg
-about-author: Electrical Engineer with interest in embedded design, PCB design, and robotics. Dedicated to learning through experience and collaboration.
+about-author: Electrical Engineer with interest in embedded design, PCB design, and robotics. Founder of Catto Electronics. Dedicated to learning through experience and collaboration.
 
 # Contact links
 email: rafael.reyes.0018@gmail.com
