@@ -39,6 +39,7 @@ R = d \ast 10^{\frac{i}{N}},
 \)</p>
 </div>
 
+
 ## Error
 
 ## Implementation
