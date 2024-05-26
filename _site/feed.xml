@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-25T04:41:48-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rafael Reyes Portfolio</title><subtitle>Rafael&apos;s Portfolio</subtitle><author><name>Rafael Reyes</name></author><entry><title type="html">Ohm Meter</title><link href="http://localhost:4000/Ohm-Meter.html" rel="alternate" type="text/html" title="Ohm Meter" /><published>2024-04-09T05:50:00-05:00</published><updated>2024-04-09T05:50:00-05:00</updated><id>http://localhost:4000/Ohm-Meter</id><content type="html" xml:base="http://localhost:4000/Ohm-Meter.html"><![CDATA[<h2 id="overview">Overview</h2>
-<p><a name="overview"></a>
-<a href="#implementation">to overview</a>
-Sorting resistors is a tedious task. Reading the color bands becomes harder when the color of the resistor has low constrast with the color bands. A solution for sorting resistors is to use a multimeter with an intgrated ohm meter. The following design process is for an ohm meter that displays the value, nearest standard value, and percent error of the resistor.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-25T19:52:30-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rafael Reyes Portfolio</title><subtitle>Rafael&apos;s Portfolio</subtitle><author><name>Rafael Reyes</name></author><entry><title type="html">Ohm Meter</title><link href="http://localhost:4000/Ohm-Meter.html" rel="alternate" type="text/html" title="Ohm Meter" /><published>2024-04-09T05:50:00-05:00</published><updated>2024-04-09T05:50:00-05:00</updated><id>http://localhost:4000/Ohm-Meter</id><content type="html" xml:base="http://localhost:4000/Ohm-Meter.html"><![CDATA[<h2 id="overview">Overview</h2>
+<p>Sorting resistors is a tedious task. Reading the color bands becomes harder when the color of the resistor has low constrast with the color bands. A solution for sorting resistors is to use a multimeter with an intgrated ohm meter. The following design process is for an ohm meter that displays the value, nearest standard value, and percent error of the resistor.</p>
 
 <h2 id="measurment">Measurment</h2>
 
 <h2 id="standard-values">Standard Values</h2>
-<p>The following formula, sourced from Jeremy Webb’s website, is used to calculate the</p>
+<p>Resistor values are spaced apart on a logorithmic scale. The E-series denotes that every decade is divided by that number. The following formula, sourced from Jeremy Webb’s website, is used to calculate the <a href="https://jwebb-design.com/ee/digital/std_resistors.html">standard resistor values</a>.</p>
 
 <p style="text-align:center">\(<br />
 \begin{align}
@@ -14,19 +12,20 @@ R = d \ast 10^{\frac{i}{N}},
 \end{align}
 \)</p>
 
+<div class="postMath">
 <p style="text-align:center">\(<br />
 \begin{align}
-\begin{array}{r | l} \text{} &amp; d = \text{decade multiplier: 10, 100, 1k,} \dots \\ 
-\text{where} &amp; N = \text{tolerance series: 12, 24, 48, 96}   \\
-\text{} &amp; i = 0 \dots N-1   \\
+\begin{array}{r | l}
+&amp; d = \text{decade multiplier: 10, 100, 1k,} \dots \\ 
+\text{where} &amp; N = \text{E-series (tolerance %): 12, 24, 48, 96}  \\
+&amp; i = 0 \dots N-1   \\
 \end{array}
 \end{align}
 \)</p>
+</div>
 
 <h2 id="error">Error</h2>
 
 <h2 id="implementation">Implementation</h2>
-<p><a href="#overview">arduino</a>
-<a href="#stm32">stm32</a></p>
 
 <h2 id="updates-coming-soon"><center>UPDATES COMING SOON</center></h2>]]></content><author><name>Rafael Reyes</name></author><category term="measurement" /><category term="standard" /><category term="ohms" /><category term="resistors" /><summary type="html"><![CDATA[Design process of a digital ohm meter]]></summary></entry></feed>
