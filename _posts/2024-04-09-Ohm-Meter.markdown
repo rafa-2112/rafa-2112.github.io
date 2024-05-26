@@ -27,16 +27,17 @@ R = d \ast 10^{\frac{i}{N}},
 \end{align}
 \)</p>
 
-
-<p class="postMath" style="text-align:center">\(<br>
+<div class="postMath">
+<p style="text-align:center">\(<br>
 \begin{align}
 \begin{array}{r | l}
-& \text{decade multiplier: 10, 100, 1k,...} \\ 
-\text{where} & \text{N = E-series (tolerance %): 12, 24, 48, 96}  \\
+& d = \text{decade multiplier: 10, 100, 1k,...} \dots \\ 
+\text{where} & N = \text{E-series (tolerance %): 12, 24, 48, 96}  \\
 & i = 0 \dots N-1   \\
 \end{array}
 \end{align}
 \)</p>
+</div>
 
 
 ## Error
