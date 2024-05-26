@@ -30,8 +30,8 @@ R = d \ast 10^{\frac{i}{N}},
 <p class="postMath" style="text-align:center">\(<br>
 \begin{align}
 \begin{array}{r | l}
-\\ \text{} & d \text{= decade multiplier: 10, 100, 1k, ...}
-\\ \text{where} & N \text{= E-series (tolerance %): 12, 24, 48, 96}
+\\ \text{} & d \text{ = decade multiplier: 10, 100, 1k, ...}
+\\ \text{where} & N \text{ = E-series (tolerance %): 12, 24, 48, 96}
 \\ \text{} & i = 0 \dots N-1
 \end{array}
 \end{align}
