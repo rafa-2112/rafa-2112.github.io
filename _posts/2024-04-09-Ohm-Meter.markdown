@@ -13,14 +13,13 @@ mathjax: yes
 ---
 
 ## Overview
-[to overview](#implementation)
 Sorting resistors is a tedious task. Reading the color bands becomes harder when the color of the resistor has low constrast with the color bands. A solution for sorting resistors is to use a multimeter with an intgrated ohm meter. The following design process is for an ohm meter that displays the value, nearest standard value, and percent error of the resistor. 
 
 ## Measurment
 
 
 ## Standard Values
-The following formula, sourced from Jeremy Webb's website, is used to calculate the
+Resistor values are spaced apart on a logorithmic scale. The E-series denotes that every decade is divided by that number. The following formula, sourced from Jeremy Webb's website, is used to calculate the [standard resistor values](https://jwebb-design.com/ee/digital/std_resistors.html). 
 
 <p style="text-align:center">\(<br>
 \begin{align}
@@ -28,21 +27,20 @@ R = d \ast 10^{\frac{i}{N}},
 \end{align}
 \)</p>
 
+<div class="postMath">
 <p style="text-align:center">\(<br>
 \begin{align}
-\begin{array}{r | l} \text{} & d = \text{decade multiplier: 10, 100, 1k,} \dots \\ 
-\text{where} & N = \text{tolerance series: 12, 24, 48, 96}   \\
-\text{} & i = 0 \dots N-1   \\
+\begin{array}{r | l}
+& d = \text{decade multiplier: 10, 100, 1k,} \dots \\ 
+\text{where} & N = \text{E-series (tolerance %): 12, 24, 48, 96}  \\
+& i = 0 \dots N-1   \\
 \end{array}
 \end{align}
 \)</p>
+</div>
 
 ## Error
 
 ## Implementation
-[arduino](#overview)
-[stm32](#stm32)
-
-
 
 ## <center>UPDATES COMING SOON</center>

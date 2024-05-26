@@ -22,7 +22,7 @@
   "headline": "Ohm Meter",
   "abstract": "Design process of a digital ohm meter",
     "keywords": "measurement, standard, ohms, resistors",
-    "wordcount": "135",
+    "wordcount": "153",
     "image": ["http://localhost:4000/assets/imgposts/20240409/resistors.jpg"],
   "datePublished": "2024-04-09 05:50:00 -0500",
   "dateModified": "2024-04-09 05:50:00 -0500",
@@ -62,7 +62,7 @@
 <meta name="twitter:description" content="Design process of a digital ohm meter">
 <meta name="twitter:creator" content="">
 <meta data-rh="true" name="twitter:label1" content="Word count"/>
-<meta data-rh="true" name="twitter:data1" content="135"/>
+<meta data-rh="true" name="twitter:data1" content="153"/>
 <meta name="twitter:image:src" content="http://localhost:4000/assets/img/posts/20240409/resistors.jpg">
 	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#311e3e">
@@ -177,7 +177,7 @@
   </span>
 
         <div class="post-excerpt">
-            <h2 id="overview">Overview</h2><p><a name="overview"></a><a href="#implementation">to overview</a>Sorting resistors is a tedious task. Reading the color bands becomes harder when the color of the resistor has low constrast with the color bands. A solution for sorting resistors is to use a multimeter with an intgrated ohm meter. The following design process is for an ohm meter that displays the value, nearest standard value, and percent error of the resistor.</p><h2 id="measurment">Measurment</h2><h2 id="standard-values">Standard Values</h2><p>The following formula, sourced from Jeremy Webb’s website, is used to calculate the</p><p style="text-align:center">\(<br />\begin{align}R = d \ast 10^{\frac{i}{N}},\end{align}\)</p><p style="text-align:center">\(<br />\begin{align}\begin{array}{r | l} \text{} &amp; d = \text{decade multiplier: 10, 100, 1k,}...<a class="read-more" href="./Ohm-Meter.html"> read more</a>
+            <h2 id="overview">Overview</h2><p>Sorting resistors is a tedious task. Reading the color bands becomes harder when the color of the resistor has low constrast with the color bands. A solution for sorting resistors is to use a multimeter with an intgrated ohm meter. The following design process is for an ohm meter that displays the value, nearest standard value, and percent error of the resistor.</p><h2 id="measurment">Measurment</h2><h2 id="standard-values">Standard Values</h2><p>Resistor values are spaced apart on a logorithmic scale. The E-series denotes that every decade is divided by that number. The following formula, sourced from Jeremy Webb’s website, is used to calculate the <a href="https://jwebb-design.com/ee/digital/std_resistors.html">standard...<a class="read-more" href="./Ohm-Meter.html"> read more</a>
         </div>
   </div>
 </section>
@@ -365,14 +365,12 @@
 </div>
 
         <h2 id="overview">Overview</h2>
-<p><a name="overview"></a>
-<a href="#implementation">to overview</a>
-Sorting resistors is a tedious task. Reading the color bands becomes harder when the color of the resistor has low constrast with the color bands. A solution for sorting resistors is to use a multimeter with an intgrated ohm meter. The following design process is for an ohm meter that displays the value, nearest standard value, and percent error of the resistor.</p>
+<p>Sorting resistors is a tedious task. Reading the color bands becomes harder when the color of the resistor has low constrast with the color bands. A solution for sorting resistors is to use a multimeter with an intgrated ohm meter. The following design process is for an ohm meter that displays the value, nearest standard value, and percent error of the resistor.</p>
 
 <h2 id="measurment">Measurment</h2>
 
 <h2 id="standard-values">Standard Values</h2>
-<p>The following formula, sourced from Jeremy Webb’s website, is used to calculate the</p>
+<p>Resistor values are spaced apart on a logorithmic scale. The E-series denotes that every decade is divided by that number. The following formula, sourced from Jeremy Webb’s website, is used to calculate the <a href="https://jwebb-design.com/ee/digital/std_resistors.html">standard resistor values</a>.</p>
 
 <p style="text-align:center">\(<br />
 \begin{align}
@@ -380,20 +378,21 @@ R = d \ast 10^{\frac{i}{N}},
 \end{align}
 \)</p>
 
+<div class="postMath">
 <p style="text-align:center">\(<br />
 \begin{align}
-\begin{array}{r | l} \text{} &amp; d = \text{decade multiplier: 10, 100, 1k,} \dots \\ 
-\text{where} &amp; N = \text{tolerance series: 12, 24, 48, 96}   \\
-\text{} &amp; i = 0 \dots N-1   \\
+\begin{array}{r | l}
+&amp; d = \text{decade multiplier: 10, 100, 1k,} \dots \\ 
+\text{where} &amp; N = \text{E-series (tolerance %): 12, 24, 48, 96}  \\
+&amp; i = 0 \dots N-1   \\
 \end{array}
 \end{align}
 \)</p>
+</div>
 
 <h2 id="error">Error</h2>
 
 <h2 id="implementation">Implementation</h2>
-<p><a href="#overview">arduino</a>
-<a href="#stm32">stm32</a></p>
 
 <h2 id="updates-coming-soon"><center>UPDATES COMING SOON</center></h2>
 

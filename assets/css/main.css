@@ -2141,3 +2141,7 @@ a.read-more:hover {
 html{
   scroll-behavior: smooth;
 }
+
+.postMath{
+  overflow-x: scroll;
+}
